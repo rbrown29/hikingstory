@@ -22,7 +22,7 @@ const App = () => {
       map.on("load", () => {
         map.addSource("mapbox-dem", {
           type: "raster-dem",
-          url: "mapbox://mapbox.mapbox-terrain-dem-v1", // Official DEM source
+          url: "mapbox://mapbox.mapbox-terrain-dem-v1", 
           tileSize: 512,
           maxzoom: 14,
         });
@@ -68,7 +68,7 @@ const App = () => {
             "hillshade-accent-color": "#AAAAAA", // Color of accent areas
           },
         });
-        // Style trails with lime green
+        // Style trails with a line layer
         map.addLayer({
           id: "trails",
           type: "line",
