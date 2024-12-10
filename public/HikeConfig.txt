@@ -1,0 +1,199 @@
+Hike Config files. Copy/Paste Config function to config.js . Each hike will have its own config function.
+
+// Smith Rock
+const config = {
+    style: "mapbox://styles/mapbox/satellite-streets-v12", // Supports 3D terrain
+    accessToken: process.env.REACT_APP_MAPBOX_ACCESS_TOKEN,
+    showMarkers: true,
+    markerColor: "rgb(0,127,92)",
+    theme: "dark",
+    use3dTerrain: true,
+    auto: false,
+    title: "",
+    subtitle: "",
+    byline: "Scroll Down to Explore",
+    footer:
+      '<br> Created By <a href="https://interactive-reality.netlify.app/" target="_blank">Richard Brown</a>',
+    chapters: [
+      {
+        id: "slug-style-id",
+        alignment: "lefty",
+        hidden: false,
+        title: "Smith Rock",
+        image:
+          "https://cdn.crowdriff.com/in-use/b6d36708-d6b0-cc35-e70d-70adeea5e461/750.jpg",
+        description:
+          "Smith Rock State Park is a state park located in central Oregon's high desert near the towns of Redmond and Terrebonne...",
+        Regulations: [
+            "Day use parking permit required",
+            "Open dawn to dusk",
+            "Information kiosk, restrooms, picnic area",
+            "Keep dogs on leash",
+            "Share some trails with mountain bikers",
+        ],
+        location: {
+          center: [-121.13789, 44.36515],
+          end: [-121.14257, 44.37290]
+          zoom: 14.5,
+          pitch: 70,
+          bearing: 0,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: false,
+      },
+      {
+        id: "second-identifier",
+        alignment: "righty",
+        hidden: false,
+        title: "Smith Rock",
+        image:
+          "https://cdn.crowdriff.com/in-use/20db2ce2-5751-bb01-eeeb-98f8719e97fc/750.jpg",
+        description:
+          "The Misery Ridge Trail in Smith Rock State Park is an exceptional day hike...",
+        location: {
+          center: [-121.13789, 44.36515],
+          zoom: 14.5,
+          pitch: 60,
+          bearing: -43.2,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: true,
+      },
+      {
+        id: "third-identifier",
+        alignment: "lefty",
+        hidden: false,
+        title: "Smith Rock",
+        image:
+          "https://www.oregonhikers.org/w/images/f/fb/SmithRockTrhd1.jpg",
+        description:
+          "The park is characterized by its 500-foot-tall imposing golden rock spires...",
+        location: {
+          center: [-121.13789, 44.36515],
+          zoom: 13.52,
+          pitch: 8.01,
+          bearing: 0.0,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: false,
+      },
+      {
+        id: "fourth-chapter",
+        alignment: "lefty",
+        hidden: false,
+        title: "Smith Rock",
+        image:
+          "https://www.oregonhikers.org/w/images/thumb/5/5a/Three_Sisters_looming%2C_Burma_Road%2C_Smith_Rock.jpg/800px-Three_Sisters_looming%2C_Burma_Road%2C_Smith_Rock.jpg",
+        link:"https://www.outdoorproject.com/united-states/oregon/smith-rock-state-park",
+        description:
+          "If you enjoy scenic views of deep river canyons or rock climbing, Smith Rock State Park is the place for you...",
+        location: {
+          center: [-121.13789, 44.36515],
+          zoom: 4,
+          pitch: 0,
+          bearing: 0,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: false,
+      },
+    ],
+  };
+
+  // Angel's Rest 
+  const config = {
+    style: "mapbox://styles/mapbox/satellite-streets-v12", // Supports 3D terrain
+    accessToken: process.env.REACT_APP_MAPBOX_ACCESS_TOKEN,
+    showMarkers: true,
+    markerColor: "rgb(0,127,92)",
+    theme: "dark",
+    use3dTerrain: true,
+    auto: false,
+    title: "",
+    subtitle: "",
+    byline: "Scroll Down to Explore",
+    footer:
+      '<br> Created By <a href="https://interactive-reality.netlify.app/" target="_blank">Richard Brown</a>',
+    chapters: [
+      {
+        id: "slug-style-id",
+        alignment: "righty",
+        hidden: false,
+        title: "Angel's Rest",
+        image:
+          "https://www.oregonhikers.org/w/images/6/6a/GorgeSunsetAngelsRest.jpg",
+        description:
+          "Angel's Rest is a popular trail in the Columbia River Gorge...",
+        Regulations: [
+            "Parking can be a problem. Try to get there early (before 8:30 a.m. on weekends), or hike during the week. Park only in designated spots at one of the two parking areas.",
+            "Day use only: open 6:00 a.m. - 10:00 p.m.",
+            "Closest restrooms at the Bridal Veil Trailhead, less than one mile west",
+            "Keep dogs on leash",
+            "Best not to hike this trail under icy, windy, or very wet conditions",
+        ],
+        location: {
+          center: [-122.17241, 45.56065],
+          end: [-122.15299, 45.56431],
+          zoom: 14.5,
+          pitch: 80,
+          bearing: 120,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: false,
+      },
+      {
+        id: "second-identifier",
+        alignment: "righty",
+        hidden: false,
+        title: "Angel's Rest",
+        image:
+          "https://www.oregonhikers.org/w/images/thumb/3/34/Cape_Horn%2C_Angel%27s_Rest_Trail.jpg/500px-Cape_Horn%2C_Angel%27s_Rest_Trail.jpg",
+        description:
+          "The platy andesite that composes this promontory is part of a million-year-old lava flow from Larch Mountain, a member of the Boring Lava Field. The summit is characterized by a long, rocky spine surrounded on three sides by cliffs, boasting a striking 270 degree view!",
+        location: {
+          center: [-122.17241, 45.56065],
+          zoom: 14.5,
+          pitch: 70,
+          bearing: 360,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: true,
+      },
+      {
+        id: "third-identifier",
+        alignment: "lefty",
+        hidden: false,
+        title: "Angel's Rest",
+        image:
+          "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.pCqeD3pohBQh313teKMwBAHaDt%26pid%3DApi&f=1&ipt=f5c5bb51953dcf36451354a62fee95248b92b0546f071c19be38299377c669ac&ipo=images",
+        description:
+          "While you can't see any of the Cascade volcanoes from the top, you do get great vantages of Beacon Rock, Silver Star Mountain, and many other landmarks.",
+        location: {
+          center: [-122.17241, 45.56065],
+          zoom: 13.52,
+          pitch: 8.01,
+          bearing: 0.0,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: false,
+      },
+      {
+        id: "fourth-chapter",
+        alignment: "lefty",
+        hidden: false,
+        title: "Angel's Rest",
+        image:
+          "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.CcgT8kL8Y8ju83qZlSsihQHaC3%26pid%3DApi&f=1&ipt=74f7aafbc9556956b43d32fae48ee9e2aed66a481cf433f6b3ad9fbda11b74cb&ipo=images",
+        link: "https://www.oregonhikers.org/field_guide/Angel%27s_Rest_Hike",
+        description:
+          "The real draw, however, is the perspective of the Columbia River below - like you're on a balcony over a great auditorium.",
+        location: {
+          center: [-122.17241, 45.56065],
+          zoom: 4,
+          pitch: 0,
+          bearing: 0,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: false,
+      },
+    ],
+  };
