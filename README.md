@@ -4,8 +4,8 @@
 
 [Hiking Story Smith Rock](https://smithrock.netlify.app/)
 
-![AngelsRest](/public/AngelsRest.png)
+![AngelsRest](public/AngelsRest.png)
 
-![SmithRock](/public/SmithRock.png)
+![SmithRock](public/SmithRock.png)
 
-![EagleCreek](/public/EagleCreek.png)
+![EagleCreek](public/EagleCreek.png)
