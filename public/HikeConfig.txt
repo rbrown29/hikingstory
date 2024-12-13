@@ -233,9 +233,9 @@ const config = {
         location: {
           center: [-121.91970, 45.636574],
           end: [-121.85199, 45.58489],
-          zoom: 13,
+          zoom: 12.5,
           pitch: 50,
-          bearing: 0,
+          bearing: 130,
         },
         mapAnimation: "flyTo",
         rotateAnimation: false,
@@ -251,7 +251,7 @@ const config = {
           "Over the last thousand years, the falls have carved a majestic basin here, plunging 160 feet from towering basalt cliffs to the rushing creek bed below...",
         location: {
           center: [-121.91970, 45.636574],
-          zoom: 14.5,
+          zoom: 12.5,
           pitch: 60,
           bearing: -43.2,
         },
