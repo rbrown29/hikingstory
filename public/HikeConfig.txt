@@ -297,3 +297,102 @@ const config = {
       },
     ],
   };
+
+  // Multnomah-Wahkeena Loop
+  const config = {
+    style: "mapbox://styles/mapbox/satellite-streets-v12", // Supports 3D terrain
+    accessToken: process.env.REACT_APP_MAPBOX_ACCESS_TOKEN,
+    showMarkers: true,
+    markerColor: "rgb(0,127,92)",
+    theme: "dark",
+    use3dTerrain: true,
+    auto: false,
+    title: "",
+    subtitle: "",
+    byline: "Scroll Down to Explore",
+    footer:
+      '<br> Created By <a href="https://interactive-reality.netlify.app/" target="_blank">Richard Brown</a>',
+    chapters: [
+      {
+        id: "slug-style-id",
+        alignment: "lefty",
+        hidden: false,
+        title: "Multnomah-Wahkeena Loop",
+        image:
+          "https://www.oregonhikers.org/w/images/d/da/Ecola1.JPG",
+        description:
+          "Wahkeena Falls Loop is a beautiful experience located in the Columbia River Gorge National Scenic Area that brings hikers to one of the best waterfalls on the Oregon side...",
+        Regulations: [
+            "For parking at the Multnomah Falls Lodge between Memorial Day and Labor Day weekends, a Timed Use Permit ($2 fee) will be required for each personal vehicle between 9 a.m. and 6 p.m. In addition, as of 2024 there's an additional parking fee ($10 and up) required by the concessionaire (Sasquatch Shuttle) that operates the parking lot here.",
+            "For the I-84 Exit 31 parking area, between Memorial Day and Labor Day weekends, you will need to purchase reserved tickets from Recreation.gov. Booking early in the morning or later in the afternoon is best for ensuring a spot.",
+            "Limited parking; if lot is full, go back to the Eagle Creek Day Use Trailhead",
+            "Keep dogs on leash",
+            "Restrooms, restaurant, visitor center at Multnomah Falls Lodge; picnic area, restrooms, information kiosk near Wahkeena Trailhead",
+        ],
+        location: {
+          center: [-122.11841, 45.57893],
+          end: [-122.12809, 45.57535],
+          zoom: 14,
+          pitch: 50,
+          bearing: 130,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: false,
+      },
+      {
+        id: "second-identifier",
+        alignment: "lefty",
+        hidden: false,
+        title: "Multnomah-Wahkeena Loop",
+        image:
+          "https://hikingproject.com/assets/photos/hike/7030417_smallMed_1554926948.jpg?cache=1733553192",
+        description:
+          "Start from the Wahkeena Picnic Area and take Wahkeena which passes by several waterfalls and ascends Wahkeena Creek past the springs which feed the waterfall...",
+        location: {
+          center: [-122.11841, 45.57893],
+          zoom: 13.7,
+          pitch: 40,
+          bearing: -43.2,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: true,
+      },
+      {
+        id: "third-identifier",
+        alignment: "righty",
+        hidden: false,
+        title: "Multnomah-Wahkeena Loop",
+        image:
+          "https://hikingproject.com/assets/photos/hike/7024271_smallMed_1554846626.jpg?cache=1733552963",
+        description:
+          "Lots to see and do initially as you climb up Wahkeena Trail. The trail is well maintained and easy to follow. The trail is a bit steep in places but not too bad...",
+        location: {
+          center: [-122.11841, 45.57893],
+          zoom: 14,
+          pitch: 8.01,
+          bearing: 0.0,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: false,
+      },
+      {
+        id: "fourth-chapter",
+        alignment: "lefty",
+        hidden: false,
+        title: "Multnomah-Wahkeena Loop",
+        image:
+          "https://hikingproject.com/assets/photos/hike/7016934_smallMed_1554828562.jpg?cache=1733552776",
+        link:"https://www.hikingproject.com/trail/7085296/wahkeena-falls-devils-rest-angels-rest-loop",
+        description:
+          "Looking downstream from the falls, you can see where the two forks of Eagle Creek converge, meeting at Grand Union Falls",
+        location: {
+          center: [-122.11841, 45.57893],
+          zoom: 4,
+          pitch: 0,
+          bearing: 0,
+        },
+        mapAnimation: "flyTo",
+        rotateAnimation: false,
+      },
+    ],
+  }
