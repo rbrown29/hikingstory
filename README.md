@@ -8,6 +8,8 @@
 
 <span>[Hiking Story Mirror Lake](https://mirrorlakes.netlify.app/)</span>
 
+<span>[Hiking Story Cascade Head](https://cascadehead.netlify.app/)</span>
+
 ![AngelsRest](public/AngelsRest.png)
 
 ![SmithRock](public/SmithRock.png)
