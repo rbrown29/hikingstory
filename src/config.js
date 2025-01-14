@@ -14,25 +14,24 @@ const config = {
     chapters: [
       {
         id: "slug-style-id",
-        alignment: "righty",
+        alignment: "lefty",
         hidden: false,
-        title: "Cascade Head",
+        title: "Multnomah-Wahkeena Loop",
         image:
-          "https://www.oregonhikers.org/w/images/f/f4/CascadeHead3.JPG",
+          "https://www.oregonhikers.org/w/images/d/da/Ecola1.JPG",
         description:
-          "This is one of the truly amazing places on the Oregon Coast. It has spectacular views down to Three Rocks, the Salmon River Estuary, and the headlands north of Lincoln City. The grassy headland is also home to an endangered species of butterfly, the Oregon silverspot, and at least two rare plant species.",
+          "This popular loop is a waterfall lover's paradise. There are six officially named waterfalls on this trip as well as countless cascades and intermittent falls. The loop can be hiked either direction, and it can be started from either trailhead.",
         Regulations: [
-            "Dogs are not permitted on this trail",
-            "Off-trail travel is not permitted",
-            "Last 0.6 miles of trail as well as the upper Nature Conservancy Trailhead closed from January 1st to July 15th.",
-            "Restrooms at Knights Park Trailhead",
+            "Restrooms, restaurant, visitor center at Multnomah Falls Lodge; picnic area, restrooms, information kiosk near Wahkeena Trailhead",
+            "Parking Fee",
+            "Dogs on leash"
         ],
         location: {
-          center: [-123.99234, 45.04183],
-          end: [-123.98842, 45.06068],
+          center: [-122.11841, 45.57893],
+          end: [-122.12809, 45.57535],
           zoom: 14.5,
           pitch: 70,
-          bearing: 30,
+          bearing: 180,
         },
         mapAnimation: "flyTo",
         rotateAnimation: false,
@@ -41,16 +40,16 @@ const config = {
         id: "second-identifier",
         alignment: "righty",
         hidden: false,
-        title: "Cascade Head",
+        title: "Multnomah-Wahkeena Loop",
         image:
-          "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.DlZMfYEnCndoDvibmSpgwgHaDy%26pid%3DApi&f=1&ipt=48f93e1bb3f6aa134768c7cc2daae98e018be8e169cab5ac8ed7d15d913bc7ff&ipo=images",
+          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTA0OTM5MjYvMjgyOTk1MTA3NmZkYTFjZGZkNTYwYWE3ODM1ZDkxMjYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
         description:
-          "The hike begins at Knights Park. The first part of trail follows a path of wood shavings scant feet from Three Rocks Road. Cross the road and you'll find the path headed north on the shoulder of Savage Road. The trail dips from the road to reach a wooden bridge, and then parallels the road through the trees. At the crest of a hill, the path crosses the road and follows its west shoulder. A sign at the bottom of the hill marks the original trailhead, where the trail leaves the road for good.",
+          "The trail begins at Multnomah Falls Lodge, a historic building constructed to serve early automobile travelers in 1925. From a photographer's viewpoint, get a head on vista of both the lower and main tiers of Multnomah Falls and the picturesque span of the Benson Bridge.",
         location: {
-          center: [-123.99234, 45.04183],
+          center: [-122.11841, 45.57893],
           zoom: 14,
           pitch: 70,
-          bearing: -43.2,
+          bearing: 360,
         },
         mapAnimation: "flyTo",
         rotateAnimation: true,
@@ -59,13 +58,13 @@ const config = {
         id: "third-identifier",
         alignment: "righty",
         hidden: false,
-        title: "Cascade Head",
+        title: "Multnomah-Wahkeena Loop",
         image:
-          "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.RpOy7N0Q6dXouW0T0Ie8SAHaEK%26pid%3DApi&f=1&ipt=adbdd715948c2c654ff129b52a16b895d99a501eb5ddeb37402b515599e5b45c&ipo=images",
+          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTAzOTQ5NzYvYjI5N2U4ZTU4ZTFkODZhNmRmZTIzM2Q3ODE0YjJmNWUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
         description:
-          "This headland meadow is a very rare ecosystem. There are two rare plants that call this hill home, the Cascade Head catchfly (Silene douglasii var oraria) and the hairy-stemmed checkermallow (Sidalcea hirtipes). Both of these species make their strongest stand here. It's estimated the 99% of all Cascade Head catchflies live on this one hill.",
+          "The trail continues to climb, switchbacking up the steep slope. The trail is well graded and maintained, but it is steep. The trail passes through a series of rock walls and talus slopes. The trail is cut into the side of the cliff, and the views are spectacular.",
         location: {
-          center: [-123.99234, 45.04183],
+          center: [-122.11841, 45.57893],
           zoom: 14,
           pitch: 10,
           bearing: 60,
@@ -77,14 +76,14 @@ const config = {
         id: "fourth-chapter",
         alignment: "lefty",
         hidden: false,
-        title: "Cascade Head",
+        title: "Multnomah-Wahkeena Loop",
         image:
-          "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.2O-hriXSCC3bhoSEra-RwAHaFj%26pid%3DApi&f=1&ipt=ba00787b20494d904015158126680bd839daca06045a2d1afb36742faec697fa&ipo=images",
-        link:"https://www.oregonhikers.org/field_guide/Cascade_Head_Hike",
+          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTAxOTk3MzcvYjgyNTAwMzFhZWJkZjYzYjM4OTI3YjZkZTEzODVmNTQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
+        link:"https://www.oregonhikers.org/field_guide/Multnomah-Wahkeena_Loop_Hike",
         description:
-          "With the roadside hike done, you'll begin climbing steeply, sometimes on stairs, through an old growth coastal forest. Douglas-fir and Sitka spruce dominate the area. You're on National Forest land in this short section, but please stay on the trail as private property is close. You'll climb about 270 feet in the first 2/10 of a mile to a grove of Sitka spruce indicated by a 13 marker. The climb eases here.",
+          "he route is a gently sloped 2/10 mile paved path to the Benson Bridge, put in place in 1914 by Simon Benson, one of the builders of the old highway. This part of the trail has one switchback. You'll pass below a rock net and can look up to see the seasonal Shady Creek Falls, which splash down a cliff just west of Multnomah Falls.",
         location: {
-          center: [-123.99234, 45.04183],
+          center: [-122.11841, 45.57893],
           zoom: 4,
           pitch: 0,
           bearing: 0,
