@@ -14,21 +14,20 @@ const config = {
     chapters: [
       {
         id: "slug-style-id",
-        alignment: "lefty",
+        alignment: "righty",
         hidden: false,
-        title: "Multnomah-Wahkeena Loop",
+        title: "Garflield Peak",
         image:
-          "https://www.oregonhikers.org/w/images/d/da/Ecola1.JPG",
+          "https://www.oregonhikers.org/w/images/c/cf/GarfieldPeak1.jpg",
         description:
-          "This popular loop is a waterfall lover's paradise. There are six officially named waterfalls on this trip as well as countless cascades and intermittent falls. The loop can be hiked either direction, and it can be started from either trailhead.",
+          "Try this 3.5-mile out-and-back trail near Crater Lake, Oregon. Generally considered a moderately challenging route, it takes an average of 2 h 8 min to complete. This is a very popular area for cross-country skiing, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime.",
         Regulations: [
-            "Restrooms, restaurant, visitor center at Multnomah Falls Lodge; picnic area, restrooms, information kiosk near Wahkeena Trailhead",
-            "Parking Fee",
-            "Dogs on leash"
+            "$30 per vehicle entrance fee to Crater Lake National Park - good for 7 days - or America the Beautiful Pass",
+            "No pets allowed on trails",
         ],
         location: {
-          center: [-122.11841, 45.57893],
-          end: [-122.12809, 45.57535],
+          center: [-122.1435, 42.9109],
+          end: [-122.1232, 42.9041],
           zoom: 14.5,
           pitch: 70,
           bearing: 180,
@@ -40,13 +39,13 @@ const config = {
         id: "second-identifier",
         alignment: "righty",
         hidden: false,
-        title: "Multnomah-Wahkeena Loop",
+        title: "Garfield Peak",
         image:
-          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTA0OTM5MjYvMjgyOTk1MTA3NmZkYTFjZGZkNTYwYWE3ODM1ZDkxMjYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
+          "https://www.oregonhikers.org/w/images/thumb/0/0e/GarfieldPeak3.jpg/500px-GarfieldPeak3.jpg",
         description:
-          "The trail begins at Multnomah Falls Lodge, a historic building constructed to serve early automobile travelers in 1925. From a photographer's viewpoint, get a head on vista of both the lower and main tiers of Multnomah Falls and the picturesque span of the Benson Bridge.",
+          "This is the one of the most popular hiking trails in Crater Lake National Park with close proximity to the Rim Village, Crater Lake Lodge, and Applegate Peak. There are spectacular panoramic views of the entire lake and other high Cascade Range Landmarks to the north and to the south the Klamath Basin and southern Cascade Landmarks.",
         location: {
-          center: [-122.11841, 45.57893],
+          center: [-122.1435, 42.9109],
           zoom: 14,
           pitch: 70,
           bearing: 360,
@@ -56,15 +55,15 @@ const config = {
       },
       {
         id: "third-identifier",
-        alignment: "righty",
+        alignment: "lefty",
         hidden: false,
-        title: "Multnomah-Wahkeena Loop",
+        title: "Garfield Peak",
         image:
-          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTAzOTQ5NzYvYjI5N2U4ZTU4ZTFkODZhNmRmZTIzM2Q3ODE0YjJmNWUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
+          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvODcyOTk3NTYvODVkNzFhMDgyYTUxNWZlNjRlYmZiYWIxMTc4M2Y0MjcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
         description:
-          "The trail continues to climb, switchbacking up the steep slope. The trail is well graded and maintained, but it is steep. The trail passes through a series of rock walls and talus slopes. The trail is cut into the side of the cliff, and the views are spectacular.",
+          "This short steep hike leaves the parking lot of Crater Lake Lodge and immediately heads uphill. Stick with it for a half mile or so and you will be rewarded with views of the deepest lake in America - and the blue color only gets better as you climb!",
         location: {
-          center: [-122.11841, 45.57893],
+          center: [-122.1435, 42.9109],
           zoom: 14,
           pitch: 10,
           bearing: 60,
@@ -76,14 +75,14 @@ const config = {
         id: "fourth-chapter",
         alignment: "lefty",
         hidden: false,
-        title: "Multnomah-Wahkeena Loop",
+        title: "Garfield Peak",
         image:
-          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTAxOTk3MzcvYjgyNTAwMzFhZWJkZjYzYjM4OTI3YjZkZTEzODVmNTQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
-        link:"https://www.oregonhikers.org/field_guide/Multnomah-Wahkeena_Loop_Hike",
+          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvODY1MDQ0ODUvMmM0Mjk5NDIyOTg0ODE0NjBjZmJhYTlhMjkxMGVhMDEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
+        link:"https://www.oregonhikers.org/field_guide/Garfield_Peak_Hike",
         description:
-          "he route is a gently sloped 2/10 mile paved path to the Benson Bridge, put in place in 1914 by Simon Benson, one of the builders of the old highway. This part of the trail has one switchback. You'll pass below a rock net and can look up to see the seasonal Shady Creek Falls, which splash down a cliff just west of Multnomah Falls.",
+          "The trail leads eastward contouring the ridge above Crater Lake. The track turns northward one-half mile from the trailhead and begins to climb. It ascends the northwestern ridge of Garfield Peak then turns eastward. Gaining the northern ridge crest the route continues to climb to the 8,060-foot summit. Views from this lofty peak south of Crater Lake include views of the lake, Wizard Island,  Phantom Ship, Mount Mazama, and the terrain to the south. There is a good path to the top, but, be prepared for a difficult climb along this peak trail.",
         location: {
-          center: [-122.11841, 45.57893],
+          center: [-122.1435, 42.9109],
           zoom: 4,
           pitch: 0,
           bearing: 0,
