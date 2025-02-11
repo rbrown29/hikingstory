@@ -14,6 +14,8 @@
 
 <span>[Hiking Story Garfield Peak](https://garfieldpeak.netlify.app/)</span>
 
+<span>[Hiking Story Cape Kiwanda](https://capekiwanda.netlify.app/)</span>
+
 ![AngelsRest](public/AngelsRest.png)
 
 ![SmithRock](public/SmithRock.png)
