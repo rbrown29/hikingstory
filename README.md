@@ -16,6 +16,8 @@
 
 <span>[Hiking Story Cape Kiwanda](https://capekiwanda.netlify.app/)</span>
 
+<span>[Hiking Story Tamolitch Blue Pool](https://tamolitchbluepool.netlify.app/)</span>
+
 ![AngelsRest](public/AngelsRest.png)
 
 ![SmithRock](public/SmithRock.png)
