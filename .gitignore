@@ -67,4 +67,6 @@ package-lock.json
 .vscode
 
 robots.txt
+HikeConfig.txt
+config.js
 

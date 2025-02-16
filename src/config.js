@@ -16,40 +16,39 @@ const config = {
         id: "slug-style-id",
         alignment: "lefty",
         hidden: false,
-        title: "Cape Kiwanda",
+        title: "Tamolitch Blue Pool",
         image:
-          "https://www.oregonhikers.org/w/images/9/98/CapeKiwanda1.jpg",
+          "https://www.oregonhikers.org/w/images/5/51/Tamolitch_Falls_and_Blue_Pool%2C_McKenzie_River_Trail.jpg",
         description:
-          "Cape Kiwanda is part of the Three Capes Scenic Route (along with Cape Meares and Cape Lookout). Kiwanda is the smallest of the three, but it is one of the best places to experience spectacular wave action. Pacific City is the home of the Pacific Dory Fleet. The beach is home to the Pacific City Dory Days where the Dory Fleet launches into the surf and then lands on the beach.",
+          "Head out on this 3.9-mile out-and-back trail near Blue River, Oregon. Generally considered a moderately challenging route, it takes an average of 1 h 28 min to complete. This is a very popular area for birding, hiking, and mountain biking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
         Regulations: [
-            "$10 Tillamook County Day Use Access Parking Fee",
-            "Dogs are allowed on the beach, but must be on a leash",
-            "Cars on the beach at the Cape Kiwanda Trailhead"
+            "Restrooms, information kiosk, nearby campground",
+            "Share trail with mountain bikers"
         ],
         location: {
-          center: [-123.96697, 45.20239],
-          end: [-123.97435, 45.21981],
-          zoom: 14.5,
+          center: [-122.03567, 44.29022],
+          end: [-122.0269, 44.3120],
+          zoom: 13.5,
           pitch: 70,
-          bearing: 180,
+          bearing: 0,
         },
         mapAnimation: "flyTo",
         rotateAnimation: false,
       },
       {
         id: "second-identifier",
-        alignment: "righty",
+        alignment: "lefty",
         hidden: false,
-        title: "Cape Kiwanda",
+        title: "Tamolitch Blue Pool",
         image:
-          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNTI2NDY2MzcvYjc5OTk0Y2E0YmIyY2MyMjZlNzYzNzZmYzkzZjIxMDguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
+          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDc1ODgxNzUvZDQ3ODkzOWVhOGEzNzEyNzk3MTUwZjI3ZDQ2YmFlMzMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
         description:
-          "One of the most unique features of Cape Kiwanda is the massive sand dune that dominates the landscape. You can climb to the top for incredible views of the beach and surrounding area or you can try your hand at sandboarding down the dune.",
+          "The beginning of this easy hike is through an old-growth Douglas fir forest. As the McKenzie River falls away, you walk along a cliff and descend into a dry river bed which eventually comes to an old lava flow.",
         location: {
-          center: [-123.96697, 45.20239],
-          zoom: 14,
+          center: [-122.03567, 44.29022],
+          zoom: 13,
           pitch: 70,
-          bearing: 360,
+          bearing: 220,
         },
         mapAnimation: "flyTo",
         rotateAnimation: true,
@@ -58,13 +57,13 @@ const config = {
         id: "third-identifier",
         alignment: "righty",
         hidden: false,
-        title: "Cape Kiwanda",
+        title: "Tamolitch Blue Pool",
         image:
-          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvODQ1MTUzNjgvMmI5ZWYyNmRiNjkyZGM1YTM4NTA5YTFmNmViYTljYjIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
+          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTEyNzg0MzYvN2UxNDJkMzExMDIyMDNjNTEwODVjOTYwMDc3OWRkMGUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
         description:
-          "It’s a thrilling experience that is sure to be a highlight of any visit. There are also plenty of hiking trails and other outdoor activities to enjoy in the surrounding area.",
+          "The trail is not too strenuous but there is some elevation gain as can be seen on the tracks and footing can be tricky in a few places. Be advised the trail passes one ledge with a steep drop-off to the river a short distance before Blue Pool.",
         location: {
-          center: [-123.96697, 45.20239],
+          center: [-122.03567, 44.29022],
           zoom: 14,
           pitch: 10,
           bearing: 60,
@@ -76,14 +75,14 @@ const config = {
         id: "fourth-chapter",
         alignment: "lefty",
         hidden: false,
-        title: "Cape Kiwanda",
+        title: "Tamolitch Blue Pool",
         image:
-          "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjgzOTIzMTUvZDM1MTBjYTg5MTJjMzdkMDlhNTQ3NTI5M2MyMzU1YzIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
-        link:"https://www.oregonhikers.org/field_guide/Cape_Kiwanda_Hike",
+          "https://www.oregonhikers.org/w/images/1/13/North_end_of_the_Blue_Pool%2C_McKenzie_River_Trail.jpg",
+        link:"https://www.oregonhikers.org/field_guide/Tamolitch_Pool_Hike",
         description:
-          "Whether you’re looking for a peaceful spot to relax and soak up the sun or an adventurous destination with plenty of outdoor activities this beach has it all. The stunning natural beauty or area combined with the modern amenities make it a must-see destination on the Oregon coast.",
+          "This pool is actually where the McKenzie River emerges after submerging into a lava tube at the Carmen Reservoir, creating the Tamolitch Falls. It's known as a “dry fall” because during especially wet rainy winters the river will flood over the lava bed and waterfall into Tamolitch Pool. ",
         location: {
-          center: [-123.96697, 45.20239],
+          center: [-122.03567, 44.29022],
           zoom: 4,
           pitch: 0,
           bearing: 0,
