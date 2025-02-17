@@ -18,6 +18,8 @@
 
 <span>[Hiking Story Tamolitch Blue Pool](https://tamolitchbluepool.netlify.app/)</span>
 
+<span>[Hiking Story Opal Creek](https://opalcreek.netlify.app/)</span>
+
 ![AngelsRest](public/AngelsRest.png)
 
 ![SmithRock](public/SmithRock.png)
