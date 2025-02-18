@@ -20,6 +20,8 @@
 
 <span>[Hiking Story Opal Creek](https://opalcreek.netlify.app/)</span>
 
+<span>[Hiking Story Cape Falcon](https://capefalcon.netlify.app/)</span>
+
 ![AngelsRest](public/AngelsRest.png)
 
 ![SmithRock](public/SmithRock.png)
