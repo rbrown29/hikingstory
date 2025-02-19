@@ -22,6 +22,8 @@
 
 <span>[Hiking Story Cape Falcon](https://capefalcon.netlify.app/)</span>
 
+<span>[Hiking Story Adams Glacier](https://adamsglacier.netlify.app/)</span>
+
 ![AngelsRest](public/AngelsRest.png)
 
 ![SmithRock](public/SmithRock.png)
