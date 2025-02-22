@@ -24,6 +24,8 @@
 
 <span>[Hiking Story Adams Glacier](https://adamsglacier.netlify.app/)</span>
 
+<span>[Hiking Story Battle Ax Mountain](https://battleax.netlify.app/)</span>
+
 ![AngelsRest](public/AngelsRest.png)
 
 ![SmithRock](public/SmithRock.png)
