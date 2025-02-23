@@ -26,6 +26,8 @@
 
 <span>[Hiking Story Battle Ax Mountain](https://battleax.netlify.app/)</span>
 
+<span>[Hiking Story Belknap Crater](https://belknapcrater.netlify.app/)</span>
+
 ![AngelsRest](public/AngelsRest.png)
 
 ![SmithRock](public/SmithRock.png)
