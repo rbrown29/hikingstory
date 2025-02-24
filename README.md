@@ -28,6 +28,8 @@
 
 <span>[Hiking Story Belknap Crater](https://belknapcrater.netlify.app/)</span>
 
+<span>[Hiking Story Blue Basin Overlook Loop](https://bluebasin.netlify.app/)</span>
+
 ![AngelsRest](public/AngelsRest.png)
 
 ![SmithRock](public/SmithRock.png)
