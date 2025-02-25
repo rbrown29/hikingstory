@@ -32,6 +32,8 @@
 
 <span>[Hiking Story Cache Lake](https://cachelake.netlify.app/)</span>
 
+<span>[Hiking Story Ice Lake](https://icelake.netlify.app/)</span>
+
 ![AngelsRest](public/AngelsRest.png)
 
 ![SmithRock](public/SmithRock.png)
